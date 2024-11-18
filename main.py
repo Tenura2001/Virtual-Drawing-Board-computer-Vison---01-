@@ -1,6 +1,5 @@
 
 import os
-
 import cvzone
 import cv2
 import numpy as np
@@ -19,7 +18,7 @@ with col2:
     output_text_area = st.title("Answer")
     output_text_area = st.subheader("")
 
-genai.configure(api_key="AIzaSyDhoICzbNlSYEKjhqCmSqJ3lZgdwSQoAX0")
+genai.configure(api_key="API KEY")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Initialize the webcam to capture video
